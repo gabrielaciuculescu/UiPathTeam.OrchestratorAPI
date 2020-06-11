@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UiPathTeam.OrchestratorAPI", "UiPathTeam.OrchestratorAPI", "{6329C9F0-17A1-44B3-92ED-FD51EEC9DCBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UiPathTeam.OrchestratorAPI", "UiPathTeam.OrchestratorAPI\UiPathTeam.OrchestratorAPI.csproj", "{E94513EB-B2D6-4A65-896D-3DFAB6E22E59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UiPathTeam.OrchestratorAPI.Activities", "UiPathTeam.OrchestratorAPI.Activities\UiPathTeam.OrchestratorAPI.Activities.csproj", "{DB0BC1E3-D66A-4F67-9268-24BDAFD16D39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UiPathTeam.OrchestratorAPI.Activities.Design", "UiPathTeam.OrchestratorAPI.Activities.Design\UiPathTeam.OrchestratorAPI.Activities.Design.csproj", "{45C29AE2-2D53-4B8C-8F84-FEF26F3A6C66}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{1512B254-12B7-473D-BEA0-41306C98D963}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UiPath.Shared.Activities", "..\Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.shproj", "{4546856D-EA50-45C6-9419-EEEACB5A80AA}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "UiPath.Shared.Activities.Design", "..\Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.shproj", "{DF9C43F0-ADD3-4FBF-995E-84B92F9CBF25}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.projitems*{4546856d-ea50-45c6-9419-eeeacb5a80aa}*SharedItemsImports = 13
+		..\Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.projitems*{45c29ae2-2d53-4b8c-8f84-fef26f3a6c66}*SharedItemsImports = 5
+		..\Shared\UiPath.Shared.Activities\UiPath.Shared.Activities.projitems*{db0bc1e3-d66a-4f67-9268-24bdafd16d39}*SharedItemsImports = 5
+		..\Shared\UiPath.Shared.Activities.Design\UiPath.Shared.Activities.Design.projitems*{df9c43f0-add3-4fbf-995e-84b92f9cbf25}*SharedItemsImports = 13
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E94513EB-B2D6-4A65-896D-3DFAB6E22E59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E94513EB-B2D6-4A65-896D-3DFAB6E22E59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E94513EB-B2D6-4A65-896D-3DFAB6E22E59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E94513EB-B2D6-4A65-896D-3DFAB6E22E59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB0BC1E3-D66A-4F67-9268-24BDAFD16D39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB0BC1E3-D66A-4F67-9268-24BDAFD16D39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB0BC1E3-D66A-4F67-9268-24BDAFD16D39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB0BC1E3-D66A-4F67-9268-24BDAFD16D39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45C29AE2-2D53-4B8C-8F84-FEF26F3A6C66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45C29AE2-2D53-4B8C-8F84-FEF26F3A6C66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45C29AE2-2D53-4B8C-8F84-FEF26F3A6C66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45C29AE2-2D53-4B8C-8F84-FEF26F3A6C66}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E94513EB-B2D6-4A65-896D-3DFAB6E22E59} = {6329C9F0-17A1-44B3-92ED-FD51EEC9DCBF}
+		{DB0BC1E3-D66A-4F67-9268-24BDAFD16D39} = {6329C9F0-17A1-44B3-92ED-FD51EEC9DCBF}
+		{45C29AE2-2D53-4B8C-8F84-FEF26F3A6C66} = {6329C9F0-17A1-44B3-92ED-FD51EEC9DCBF}
+		{4546856D-EA50-45C6-9419-EEEACB5A80AA} = {1512B254-12B7-473D-BEA0-41306C98D963}
+		{DF9C43F0-ADD3-4FBF-995E-84B92F9CBF25} = {1512B254-12B7-473D-BEA0-41306C98D963}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9E784A8-BF3D-4267-B29C-0603488147CE}
+	EndGlobalSection
+EndGlobal
